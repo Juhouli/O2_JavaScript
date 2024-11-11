@@ -22,3 +22,4 @@ switch(a) {
     document.querySelector('#target').innerHTML = name + ', you are Gryffindor';
     break;
 }
+//merkkijono mihin syötetty nimi ja", you are ", caseen vaan se et += Ravenclaw etc ja lopuksi vaan yksi rivi tulostaa vastauksen

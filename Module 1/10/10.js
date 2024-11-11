@@ -5,7 +5,7 @@ function randomIntFromInterval(min, max) { // min and max included
 }
 
 function financial(x) {
-  return Number.parseFloat(x).toFixed(2);
+  return Number.parseFloat(x).toFixed(3);
 }
 
 const dice = parseInt(prompt("Type the amount of dice:"))
@@ -14,8 +14,8 @@ let sumTrue = 0
 let ram = 0
 const times = 100000
 
-for (let i = 1; i <= times; i ++) {
-  if (ram == sum) {
+for (let i = 1; i < times; i ++) {
+  if (ram === sum) {
     sumTrue += 1
     ram = 0
   }

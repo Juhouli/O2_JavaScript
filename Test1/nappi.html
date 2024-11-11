@@ -1,0 +1,16 @@
+<button>Click me</button>
+<script>
+    const button = document.querySelector('button');
+
+function A(evt){
+  alert('This is function A');
+  button.removeEventListener('click', A);
+  button.addEventListener('click', B);
+}
+
+function B(evt){
+  alert('This is function B');
+}
+
+button.addEventListener('click', A);
+</script>

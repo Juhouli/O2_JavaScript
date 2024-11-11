@@ -54,3 +54,10 @@ else {
   }
 }
 document.querySelector('#target').innerHTML = returnString
+
+//let html = ""
+//for (let year % 400 === 0 ||(year% 4 === 0 && year % 100 !== 0)) {
+// HTML += `<li>${year}</li>
+//document.querySelector('#target').innerHTML = HTML
+
+// toi vaatii vielä sen et html on <li> mihin noi lisätään
