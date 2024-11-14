@@ -1,6 +1,6 @@
 'use strict';
 
-function noppa(sides) { // min and max included
+function noppa() {
   return Math.floor(Math.random() * (6) + 1);
 }
 
